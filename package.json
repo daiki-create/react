@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@coreui/react-chartjs": "^2.1.0",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@mui/icons-material": "^5.10.3",
@@ -42,6 +43,8 @@
     ]
   },
   "devDependencies": {
-    "react-awesome-stars-rating": "^0.13.0"
+    "chart.js": "^3.9.1",
+    "react-awesome-stars-rating": "^0.13.0",
+    "react-chartjs-2": "^4.3.1"
   }
 }

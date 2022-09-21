@@ -31,6 +31,8 @@ class Review extends PureComponent {
       return (
         <>
         <Header />
+        <div>react-awsome-stars-ratingを使ってみたかっただけのページ。</div>
+        <div>レビュー投稿機能作成予定。</div>
         <section>
           <ReactStarsRating
             onChange={this.onChange}

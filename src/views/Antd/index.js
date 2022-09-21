@@ -14,6 +14,7 @@ class Antd extends PureComponent {
       return (
         <>
         <Header />
+        <div>Antデザインのサンドバッグ用ページ</div>
         <div>
           <Button type="primary">Primary</Button>
           <Button type="primary" disabled>
@@ -62,7 +63,8 @@ class Antd extends PureComponent {
               Ghost(disabled)
             </Button>
           </div>
-          
+          <br></br>
+          <div>DatePicker</div>
           <DatePicker placeholder="select date" />     
         </div>
         </>

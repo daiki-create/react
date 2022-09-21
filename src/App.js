@@ -31,6 +31,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './views/Home/index';
 import Review from './views/Review/index';
 import Antd from './views/Antd/index';
+import Chart from './views/Chart/index';
 
 import './App.css';
 
@@ -52,6 +53,7 @@ function App() {
         <Route path={`/`} element={<Home />} />
         <Route path={`/review`} element={<Review />} />
         <Route path={`/antd`} element={<Antd />} />
+        <Route path={`/chart`} element={<Chart />} />
       </Routes>
     </BrowserRouter>
     </>

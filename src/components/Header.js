@@ -38,6 +38,8 @@ export default function ButtonAppBar() {
           <Button color="inherit"><Link to={`/`}>HOME</Link></Button>
           <Button color="inherit"><Link to={`/review`}>評価する</Link></Button>
           <Button color="inherit"><Link to={`/antd`}>Antデザイン</Link></Button>
+          <Button color="inherit"><Link to={`/chart`}>チャート</Link></Button>
+
         </Toolbar>
       </AppBar>
     </div>

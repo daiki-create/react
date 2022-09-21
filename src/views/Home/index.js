@@ -6,26 +6,9 @@ import Header from '../../components/Header'
 class Home extends PureComponent {
     constructor(props) {
       super(props);
-  
-      this.state = {
-        value: 0,
-        isEdit: true,
-      };
-  
-      this.onChange = this.onChange.bind(this);
     }
   
-    onChange(value) {
-      this.setState({
-        value,
-        isEdit: false,
-        selectedValue: value,
-      });
-    }
-  
-    render() {
-      const { isEdit, value, selectedValue } = this.state;
-  
+    render() {  
       return (
         <>
         <Header />
